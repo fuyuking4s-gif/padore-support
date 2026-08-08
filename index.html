@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PADORE サポート</title>
+<style>
+  :root {
+    --bg: #0d0d12;
+    --card: #16161d;
+    --text: #f2f2f5;
+    --muted: #9a9aa5;
+    --accent: #7c5cff;
+    --border: #2a2a35;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header .icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    background: linear-gradient(90deg, #7c5cff, #ff5c9c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  header p {
+    color: var(--muted);
+    margin: 0;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h2::before {
+    content: "";
+    width: 4px;
+    height: 18px;
+    background: var(--accent);
+    border-radius: 2px;
+    display: inline-block;
+  }
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  .faq-q {
+    font-weight: 600;
+    margin-top: 16px;
+  }
+  .faq-a {
+    color: var(--muted);
+    margin: 4px 0 0;
+  }
+  footer {
+    text-align: center;
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  a {
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="icon">🎵</div>
+    <h1>PADORE サポート</h1>
+    <p>効果音ボードアプリ「PADORE(パドーレ)」の使い方・よくある質問</p>
+  </header>
+
+  <section>
+    <h2>アプリの概要</h2>
+    <p>PADOREは、好きな音を録音して、タップひとつで再生できるシンプルな効果音ボードアプリです。1つのボードにつき6個のボタンを配置し、それぞれに好きな音を登録できます。</p>
+  </section>
+
+  <section>
+    <h2>基本的な使い方</h2>
+    <ul>
+      <li>未録音のボタンをタップすると録音画面が開きます。録音時間は5秒または10秒から選べます。</li>
+      <li>録音済みのボタンは、1回タップで選択、もう一度タップで再生されます。</li>
+      <li>選択したボタンの「ボタン編集」から、名前・絵文字(24種類)・カラー(8色)を自由に変更できます。</li>
+      <li>「音編集」では、トリミング(不要な無音部分のカット)、音程調整(−12〜+12)、音質調整ができます。試聴しながら編集し、保存するまで元の音声は変わりません。</li>
+      <li>画面上部のタブから複数のボードを切り替えられます。「＋」から新しいボードを追加できます。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>プレミアム機能について</h2>
+    <p>無料版ではボードを1枚(6個のボタン)まで作成できます。プレミアム機能(¥200・買い切り)を購入すると、ボードを最大10枚まで作成できるようになります。</p>
+    <p>購入は端末のApple IDに紐づきます。機種変更やアプリの再インストール後は、設定画面の「購入を復元」から復元できます。</p>
+  </section>
+
+  <section>
+    <h2>よくある質問</h2>
+
+    <p class="faq-q">Q. 録音した音が保存されません</p>
+    <p class="faq-a">A. マイクへのアクセス許可が必要です。iOSの「設定」→「PADORE」からマイクのアクセスがオンになっているかご確認ください。</p>
+
+    <p class="faq-q">Q. 購入したプレミアム機能が反映されません</p>
+    <p class="faq-a">A. 設定画面の「購入を復元」をお試しください。それでも解決しない場合は、下記の連絡先までご連絡ください。</p>
+
+    <p class="faq-q">Q. ボードや音声データはどこに保存されますか?</p>
+    <p class="faq-a">A. すべて端末内にローカル保存されます。クラウド同期は行っていないため、機種変更の際はデータが引き継がれない点にご注意ください。</p>
+
+    <p class="faq-q">Q. 録音した音を他のアプリで使えますか?</p>
+    <p class="faq-a">A. 現在準備中の機能です。対応が完了次第、このページでご案内します。</p>
+  </section>
+
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>ご不明な点や不具合の報告は、以下のメールアドレスまでご連絡ください。</p>
+    <p><a href="mailto:support@example.com">support@example.com</a></p>
+  </section>
+
+  <footer>
+    <p><a href="privacy.html">プライバシーポリシー</a></p>
+    <p>&copy; 2026 anti GRAVITY. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
